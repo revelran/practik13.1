@@ -1,0 +1,41 @@
+/*  отображать элемент с заданым  шириной и высотой */
+/*  padding и border  входят в эту ширину и высоту*/
+* {
+    box-sizing: border-box;
+}
+
+.block {
+    /* width: 500px; */
+    height: 150px;
+    /* Минимальная высота*/
+    /*min-height: 150px;*/
+    background-color: cadetblue;
+    border: 1px solid peru;
+    margin-bottom: 2px;
+    padding: 20px;
+    /* Изменить тип отображения элемента */
+    /* Сделать элемент блочным*/
+    /*display: inline;*/
+    /* Блочно-строчный элемент*/
+    /*display: inline-block;*/
+    /* Скрыть элемент со странице*/
+    /*display: none;*/
+}
+
+.pararaph {
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+}
+
+.inline {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    padding: 30px;
+    border: 1px solid red;
+    /* Изменить тип отображения элемента */
+    /* Сделать элемент блочным */
+    display: block;
+}
